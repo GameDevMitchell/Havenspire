@@ -13,7 +13,7 @@ func spawn_enemy() -> void:
 	add_child(new_enemy)
 	timer.wait_time = difficulty_manager.get_spawn_time()
 	new_enemy.tree_exited.connect(enemy_defeated)
-	#Engine.time_scale = 5
+	#Engine.time_scale = 3.0
 
 
 func _on_difficulty_manager_stop_spawning_enemies() -> void:
