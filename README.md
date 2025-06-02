@@ -25,7 +25,7 @@ A modern 3D Tower defence game made with the Godot engine
 
 ---
 
-## 🚀 How to Run the Game
+## How to Run the Game
 
 ### Step 1: Install Godot
 
